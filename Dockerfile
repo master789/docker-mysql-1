@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-
+Test
 # Install latest updates
 RUN apt-get update
 #RUN apt-get upgrade -y
@@ -28,3 +28,4 @@ RUN chmod +x /usr/local/bin/start-database.sh
 EXPOSE 3306
 
 CMD ["/usr/local/bin/start-database.sh"]
+Test 
